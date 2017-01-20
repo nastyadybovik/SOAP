@@ -1,0 +1,12 @@
+This is SOAP web service. The theme is car catalog.
+
+Actions that can be called:
+1.Get car by id
+2.Get car by search criteria
+3.Create car
+
+Wsdl can be reached by path: <host>:<port>/ws/carCatalog.wsdl .
+
+Request can be sent by Postman on url "<host>:<port>/ws" with Content-Type "text/xml" and the example of Body can be find in src/main/resources/examples.
+
+The xsd schema is located in src/main/resources/carCatalog.xsd .
