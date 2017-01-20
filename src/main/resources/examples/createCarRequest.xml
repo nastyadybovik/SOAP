@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:createCarRequest xmlns:ns2="http://by.bsu.soap/carCatalog">
+            <ns2:car>
+                <ns2:model>Test</ns2:model>
+                <ns2:mark>Test</ns2:mark>
+                <ns2:price>20564.0</ns2:price>
+                <ns2:year>2000</ns2:year>
+            </ns2:car>
+        </ns2:createCarRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,10 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getCarByCriteriaRequest xmlns:ns2="http://by.bsu.soap/carCatalog">
+            <ns2:model>Toyota</ns2:model>
+            <ns2:mark>Camry</ns2:mark>
+            <ns2:year>2016</ns2:year>
+        </ns2:getCarByCriteriaRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

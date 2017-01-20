@@ -1,0 +1,8 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getCarRequest xmlns:ns2="http://by.bsu.soap/carCatalog">
+            <ns2:id>101</ns2:id>
+        </ns2:getCarRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
